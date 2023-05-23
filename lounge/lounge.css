@@ -1,0 +1,73 @@
+body {font: small/1.6em Verdana, Helvetica, Arial, sans-serif;}
+
+h1, h2 {color: #007e7e;}
+h1 {font-size: 150%;
+    border-bottom: 1px solid black;}
+h2 {font-size: 130%;}
+
+#guarantee {line-height: 1.9em;
+            font-color: #444444;
+            font-family: Georgia, "Times New Roman",
+            Times,serif;
+
+            border: dashed medium white;
+
+            padding: 25px;
+            padding-left: 80px;
+
+            margin: 30px;
+            margin-right: 300px;
+            
+            background: #a7cece url(images/littlestar2.gif) no-repeat;
+            background-position: top 10px left 10px;
+            background-size: 50px;
+            }
+
+#elixirs {      
+          border: thin solid #007e7e;
+                /*width style color*/
+
+          width: 200px;
+          
+          padding: 20px;
+   
+          margin: 0px 20px 30px 10px;  
+             /*TOP, RIGHT, BOTTOM, LEFT */
+ 
+          text-align:  center;
+          line-height: 1;
+          
+          background: url(images/coctail.gif) repeat-x;
+          background-size: 30px;
+        
+          float: right;
+          }
+          
+#elixirs h2 {color: black;}
+#elixirs h3 {color: #d12c47;}
+
+#elixirs a:link {color: #007e7e;}
+#elixirs a:visited {color: #333333;}
+#elixirs a:hover {background: #f88396; 
+                  color: #0d5353;}
+
+.cd {font-style: italic;}
+.artist {font-weight: bold;}
+
+#footer {
+         font-size: 50%;
+         text-align: center;
+         line-height: normal;
+         margin-top: 30px;
+         float: bottom;
+         }
+p {color: maroon;}
+em {font-family: sans-serif;}
+
+
+
+/*Elixir part */
+p.blue {color: blue}
+p.greentea {color: green}
+p.lightblue {color: purple}
+
